@@ -34,7 +34,7 @@ const restaurantSchema = new mongoose.Schema<IRestaurant>({
     menu:[{
         type:mongoose.Schema.Types.ObjectId,
         ref:"Menu"
-    }]
+    }]  
 
 },{timestamps:true})
 
