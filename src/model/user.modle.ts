@@ -85,17 +85,6 @@ userSchema.methods.generateToken = function (): string {
     );
 };
 
-// // Method to generate a refresh token
-// userSchema.methods.generateRefreshToken = function (): string {
-//     return jwt.sign(
-//         {
-//             _id: this._id,
-//         },
-//         process.env.REFRESH_TOKEN_SECRET!,
-//         {
-//             expiresIn: process.env.REFRESH_TOKEN_EXPIRY!,
-//         }
-//     );
-// };
+
 
 export const User = mongoose.model<IUser>("User",userSchema);
