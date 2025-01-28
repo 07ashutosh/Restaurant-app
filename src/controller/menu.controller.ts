@@ -7,40 +7,47 @@ import { Restaurant } from "../model/restaurant.model";
 import mongoose from "mongoose";
 import { ApiResponse } from "../utils/ApiResponce";
 
-const addMenu = asyncHandler(async (req,res)=>{
-    const {name, description, price} = req.body;
+const addMenu = asyncHandler(async (req, res) => {
+    const { name, description, price } = req.body;
     const file = req.file;
-    if(!file){
-        throw new ApiError(400,"image is required")
-    }
-
+    if (!file) {
+        return res.status(400).json({
+            success: false,
+            message: "Image is required"
+        })
+    };
     const imageUrl = await uploadImageOnCloudinary(file as Express.Multer.File);
-    const menu = await Menu .create({    
+    const menu: any = await Menu.create({
         name,
         description,
         price,
-        image:imageUrl
+        image: imageUrl
     });
-    const restaurant = await Restaurant.findOne({user:req.id});
-    if(restaurant){
-        (restaurant.menu as mongoose.Schema.Types.ObjectId[]).push(menu._id);
+    const restaurant = await Restaurant.findOne({ user: req.id });
+    if (restaurant) {
+        restaurant.menu.push(menu._id);
         await restaurant.save();
     }
 
-    return res.status(201).json(new ApiResponse(201,"Menu added successfully"));
-
+    return res.status(201).json({
+        success: true,
+        message: "Menu added successfully",
+        menu
+    });
 });
 
-const editMenu = asyncHandler(async (req,res)=>{
-    const {id} = req.params;
-    const {name, description, price} = req.body;
+
+
+const editMenu = asyncHandler(async (req, res) => {
+    const { id } = req.params;
+    const { name, description, price } = req.body;
     const file = req.file;
-     
+
     const menu = await Menu.findById(id);
-    if(!menu){
-        throw new ApiError(404,"Menu not found");
+    if (!menu) {
+        throw new ApiError(404, "Menu not found");
     };
-    if(file){
+    if (file) {
         const imageUrl = await uploadImageOnCloudinary(file as Express.Multer.File);
         menu.image = imageUrl;
     };
@@ -50,15 +57,15 @@ const editMenu = asyncHandler(async (req,res)=>{
     await menu.save();
 
     return res
-    .status(200)
-    .json(
-        new ApiResponse(200,"Menu updated successfully")
-    );
+        .status(200)
+        .json(
+            new ApiResponse(200, "Menu updated successfully")
+        );
 
 });
 
 export {
-    addMenu, 
-    editMenu 
+    addMenu,
+    editMenu
 };
 
