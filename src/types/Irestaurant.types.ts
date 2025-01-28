@@ -8,5 +8,5 @@ export interface IRestaurant{
     deliveryTime:number;
     cuisines:string[];
     imageUrl:string;
-    menu:mongoose.Schema.Types.ObjectId;
+    menu:mongoose.Schema.Types.ObjectId[];
 }
