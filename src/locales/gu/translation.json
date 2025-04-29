@@ -1,0 +1,175 @@
+{
+  "home": "હોમ",
+  "restaurants": "રેસ્ટોરાં",
+  "order": "ઓર્ડર",
+  "dashboard": "ડેશબોર્ડ",
+  "restaurantHome": "રેસ્ટોરન્ટ",
+  "menu": "મેનુ",
+  "orders": "ઓર્ડર્સ",
+  "logout": "લોગઆઉટ",
+  "profileHome": "પ્રોફાઇલ",
+  "cartHome": "કાર્ટ",
+  "footer": {
+    "rightsReserved": "સમસ્ત અધિકારો સુરક્ષિત."
+  },
+  "hero": {
+    "title": "તમારું મનપસંદ ખોરાક અને રેસ્ટોરન્ટ શોધો",
+    "subtitle": "અરે! અમારું સ્વાદિષ્ટ ખોરાક તમારું રાહ જોઈ રહ્યું છે, અમે હંમેશા તમારા નજીક છીએ. શ્રેષ્ઠ રેસ્ટોરન્ટ, સ્વાદિષ્ટ વાનગીઓ અને તમારી મનપસંદ પાંખીઓ શોધો!",
+    "placeholder": "નામ, શહેર અને દેશ દ્વારા રેસ્ટોરન્ટ શોધો",
+    "search": "શોધો"
+  },
+  "filter": {
+    "title": "પાકકળીઓ દ્વારા ફિલ્ટર કરો",
+    "reset": "રીસેટ કરો",
+    "cuisines": {
+      "indian": "ભારતીય",
+      "chinese": "ચાઈનીઝ",
+      "mexican": "મેક્સિકન",
+      "italian": "ઇટાલિયન",
+      "french": "ફ્રેંચ",
+      "japanese": "જાપાનીઝ",
+      "turkish": "ટર્કિશ",
+      "thai": "થાઈ"
+    }
+  },
+    "search": {
+      "placeholder": "રેસ્ટોરન્ટ અને વાનગીઓ દ્વારા શોધો",
+      "button": "શોધો",
+      "resultFound": "પરિણામ મળ્યાં"
+    },
+    "restaurant": {
+      "featured": "વિશિષ્ટ",
+      "city": "શહેર",
+      "country": "દેશ",
+      "viewMenu": "મેનૂ જુઓ"
+    },
+    "noResults": {
+      "title": "કોઈ પરિણામ મળ્યું નથી",
+      "message": "\"{{searchText}}\" માટે કોઈ પરિણામ મળ્યું નથી. બીજું અજમાવો.",
+      "goHome": "હોમ પર પાછા જાઓ"
+    },
+    "restaurantDetail": {
+    "loading": "લોડ થઈ રહ્યું છે...",
+    "deliveryTime": "ડિલિવરી સમય",
+    "minutes": "મિનિટ"
+  },
+  "availableMenu": {
+    "title": "ઉપલબ્ધ મેનુ",
+    "price": "કિંમત",
+    "addToCart": "કાર્ટમાં ઉમેરો"
+  },
+  "cart": {
+    "clear": "બધું સાફ કરો",
+    "items": "આઇટમ",
+    "title": "શીર્ષક",
+    "price": "કિંમત",
+    "quantity": "જથ્થો",
+    "total": "કુલ",
+    "remove": "દૂર કરો",
+    "totalAmount": "કુલ રકમ",
+    "continue": "ખરીદ جاری રાખો",
+    "checkout": "ચેકઆઉટ પર જાઓ"
+  },
+  "allResTitle": "બધા રેસ્ટોરન્ટ",
+  "success": {
+    "orderStatus": "ઓર્ડર સ્ટેટસ",
+    "orderSummary": "ઓર્ડર સારાંશ",
+    "orderNotFound": "ઓર્ડર મળ્યો નથી!",
+    "continueShopping": "ખરીદી ચાલુ રાખો"
+  },
+  "restaurantForm": {
+    "title": "રેસ્ટોરન્ટ ઉમેરો",
+    "name": "રેસ્ટોરન્ટ નામ",
+    "city": "શહેર",
+    "country": "દેશ",
+    "deliveryTime": "ડિલિવરી સમય",
+    "cuisines": "પાકકલા પ્રકાર",
+    "uploadBanner": "રેસ્ટોરન્ટ બેનર અપલોડ કરો",
+    "placeholder": {
+      "name": "તમારું રેસ્ટોરન્ટ નામ દાખલ કરો",
+      "city": "તમારું શહેરનું નામ દાખલ કરો",
+      "country": "તમારું દેશનું નામ દાખલ કરો",
+      "deliveryTime": "ડિલિવરી સમય દાખલ કરો",
+      "cuisines": "દા.ત. ઇન્ડિયન, ચાઇનીઝ, ઇટાલિયન"
+    },
+    "button": {
+      "add": "તમારું રેસ્ટોરન્ટ ઉમેરો",
+      "update": "તમારું રેસ્ટોરન્ટ અપડેટ કરો",
+      "loading": "મહેરબાની કરીને રાહ જુઓ"
+    }
+  },
+  "validation": {
+    "restaurant_name_required": "રેસ્ટોરન્ટ નામ જરૂરી છે",
+    "city_required": "શહેર જરૂરી છે",
+    "country_required": "દેશ જરૂરી છે",
+    "delivery_time_non_negative": "ડિલિવરી સમય નકારાત્મક હોવો જોઈએ નહીં",
+    "image_file_required": "છબી ફાઇલ જરૂરી છે"
+  },
+  "profile": {
+    "email": "ઈમેઇલ",
+    "address": "સરનામું",
+    "city": "શહેર",
+    "country": "દેશ",
+    "contact": "સંપર્ક",
+    "update": "અપડેટ કરો",
+    "pleaseWait": "કૃપા કરીને રાહ જુઓ"
+  },
+  "addMenu": {
+    "availableMenus": "ઉપલબ્ધ મેન્યૂ",
+    "addMenu": "મેન્યૂ ઉમેરો",
+    "dialogTitle": "નવું મેન્યૂ ઉમેરો",
+    "dialogDescription": "એક એવો મેન્યૂ બનાવો જે તમારા રેસ્ટોરન્ટને વિશેષ બનાવે.",
+    "name": "નામ",
+    "placeholderName": "મેન્યુ નામ દાખલ કરો",
+    "description": "વર્ણન",
+    "placeholderDescription": "મેન્યુનું વર્ણન દાખલ કરો",
+    "price": "કીંમત",
+    "placeholderPrice": "મેન્યુની કિંમત દાખલ કરો",
+    "uploadImage": "મેન્યુ છબી અપલોડ કરો",
+    "submit": "સબમિટ કરો",
+    "pleaseWait": "કૃપા કરીને થોડીવાર રાહ જુઓ",
+    "priceLabel": "કીંમત",
+    "edit": "સંપાદિત કરો"
+  },
+  "editMenu": {
+  "title": "મેન્યૂ સંપાદિત કરો",
+  "description": "તમારું મેન્યૂ અપડેટ કરો જેથી કરીને તમારું ઓફર તાજું અને રોમાંચક રહે!",
+  "name": "નામ",
+  "placeholderName": "મેન્યૂ નામ દાખલ કરો",
+  "descriptionLabel": "વર્ણન",
+  "placeholderDescription": "મેન્યૂનું વર્ણન દાખલ કરો",
+  "price": "કીંમત (રૂપિયામાં)",
+  "placeholderPrice": "મેન્યૂની કિંમત દાખલ કરો",
+  "uploadImage": "મેન્યૂ છબી અપલોડ કરો",
+  "submit": "સબમિટ કરો",
+  "pleaseWait": "કૃપા કરીને રાહ જુઓ"
+},
+"menuValidation": {
+  "nameRequired": "નામ જરૂરી છે",
+  "descriptionRequired": "વર્ણન જરૂરી છે",
+  "priceNegative": "ભાવ નકારાત્મક હોઈ શકે નહીં",
+  "imageRequired": "છબી ફાઈલ જરૂરી છે"
+},
+"userValidation": {
+  "fullNameRequired": "પૂરું નામ આવશ્યક છે",
+  "emailInvalid": "અમાન્ય ઈમેલ સરનામું",
+  "passwordMin": "પાસવર્ડ ઓછામાં ઓછો 6 અક્ષરનો હોવો જોઈએ",
+  "contactMin": "સંપર્ક નંબર ઓછામાં ઓછો 10 અંકોનો હોવો જોઈએ"
+},
+"overview": "ઓર્ડર અવલોકન",
+  "address": "સરનામું",
+  "item": "આઇટમ",
+  "totalAmount": "કુલ રકમ",
+  "orderStatusTitle": "ઓર્ડરની સ્થિતિ",
+  "selectStatus": "સ્થિતિ પસંદ કરો",
+  "orderStatus": {
+    "pending": "બાકી",
+    "confirmed": "પુષ્ટિ થઈ",
+    "preparing": "તૈયારી કરી રહ્યો છે",
+    "outfordelivery": "ડિલિવરી માટે બહાર",
+    "delivered": "વિતરિત થયું"
+  }
+
+
+  
+}

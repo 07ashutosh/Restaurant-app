@@ -1,0 +1,172 @@
+{
+  "home": "ホーム",
+  "restaurants": "レストラン",
+  "order": "注文",
+  "dashboard": "ダッシュボード",
+  "restaurantHome": "レストラン",
+  "menu": "メニュー",
+  "orders": "注文",
+  "logout": "ログアウト",
+  "profileHome": "プロフィール",
+  "cartHome": "カート",
+  "footer": {
+    "rightsReserved": "全著作権所有"
+  },
+  "hero": {
+    "title": "お気に入りの食べ物とレストランを見つける",
+    "subtitle": "やあ！私たちの美味しい食べ物があなたを待っています。私たちはいつもあなたの近くにいます。最高のレストラン、美味しい料理、そしてあなたのお気に入りの料理を発見してください！",
+    "placeholder": "名前、都市、国でレストランを検索",
+    "search": "検索"
+  },
+  "filter": {
+    "title": "料理で絞り込む",
+    "reset": "リセット",
+    "cuisines": {
+      "indian": "インド料理",
+      "chinese": "中華料理",
+      "mexican": "メキシコ料理",
+      "italian": "イタリア料理",
+      "french": "フランス料理",
+      "japanese": "日本料理",
+      "turkish": "トルコ料理",
+      "thai": "タイ料理"
+    }
+  },
+  "search": {
+    "placeholder": "レストランと料理で検索",
+    "button": "検索",
+    "resultFound": "件の検索結果"
+  },
+  "restaurant": {
+    "featured": "注目",
+    "city": "都市",
+    "country": "国",
+    "viewMenu": "メニューを見る"
+  },
+  "noResults": {
+    "title": "結果が見つかりませんでした",
+    "message": "\"{{searchText}}\" に一致する結果が見つかりませんでした。別のキーワードを試してください。",
+    "goHome": "ホームに戻る"
+  },
+  "restaurantDetail": {
+    "loading": "読み込み中...",
+    "deliveryTime": "配達時間",
+    "minutes": "分"
+  },
+  "availableMenu": {
+    "title": "利用可能なメニュー",
+    "price": "価格",
+    "addToCart": "カートに追加"
+  },
+  "cart": {
+    "clear": "すべてクリア",
+    "items": "商品",
+    "title": "タイトル",
+    "price": "価格",
+    "quantity": "数量",
+    "total": "合計",
+    "remove": "削除",
+    "totalAmount": "合計金額",
+    "continue": "買い物を続ける",
+    "checkout": "チェックアウトへ進む"
+  },
+  "allResTitle": "すべてのレストラン",
+  "success": {
+    "orderStatus": "注文状況",
+    "orderSummary": "注文概要",
+    "orderNotFound": "注文が見つかりません！",
+    "continueShopping": "買い物を続ける"
+  },
+  "restaurantForm": {
+    "title": "レストランを追加",
+    "name": "レストラン名",
+    "city": "市区町村",
+    "country": "国",
+    "deliveryTime": "配達時間",
+    "cuisines": "料理の種類",
+    "uploadBanner": "レストランバナーをアップロード",
+    "placeholder": {
+      "name": "レストラン名を入力してください",
+      "city": "都市名を入力してください",
+      "country": "国名を入力してください",
+      "deliveryTime": "配達時間を入力してください",
+      "cuisines": "例：インド料理、中華、イタリア料理"
+    },
+    "button": {
+      "add": "レストランを追加",
+      "update": "レストランを更新",
+      "loading": "お待ちください"
+    }
+  },
+  "validation": {
+    "restaurant_name_required": "レストラン名は必須です",
+    "city_required": "都市は必須です",
+    "country_required": "国は必須です",
+    "delivery_time_non_negative": "配達時間は負の数にはできません",
+    "image_file_required": "画像ファイルが必要です"
+  },
+  "profile": {
+    "email": "メール",
+    "address": "住所",
+    "city": "市",
+    "country": "国",
+    "contact": "連絡先",
+    "update": "更新",
+    "pleaseWait": "お待ちください"
+  },
+  "addMenu": {
+    "availableMenus": "利用可能なメニュー",
+    "addMenu": "メニューを追加",
+    "dialogTitle": "新しいメニューを追加",
+    "dialogDescription": "レストランを際立たせるメニューを作成しましょう。",
+    "name": "名前",
+    "placeholderName": "メニュー名を入力",
+    "description": "説明",
+    "placeholderDescription": "メニューの説明を入力",
+    "price": "価格",
+    "placeholderPrice": "メニューの価格を入力",
+    "uploadImage": "メニュー画像をアップロード",
+    "submit": "送信",
+    "pleaseWait": "お待ちください",
+    "priceLabel": "価格",
+    "edit": "編集"
+  },
+  "editMenu": {
+  "title": "メニューを編集",
+  "description": "メニューを更新して、提供内容を常に新鮮で魅力的に保ちましょう！",
+  "name": "名前",
+  "placeholderName": "メニュー名を入力",
+  "descriptionLabel": "説明",
+  "placeholderDescription": "メニューの説明を入力",
+  "price": "価格（ルピー）",
+  "placeholderPrice": "メニューの価格を入力",
+  "uploadImage": "メニュー画像をアップロード",
+  "submit": "送信",
+  "pleaseWait": "お待ちください"
+},
+"menuValidation": {
+  "nameRequired": "名前は必須です",
+  "descriptionRequired": "説明は必須です",
+  "priceNegative": "価格は負の数にできません",
+  "imageRequired": "画像ファイルは必須です"
+},
+"userValidation": {
+  "fullNameRequired": "氏名は必須です",
+  "emailInvalid": "無効なメールアドレスです",
+  "passwordMin": "パスワードは6文字以上である必要があります",
+  "contactMin": "連絡先番号は10桁以上である必要があります"
+},
+"overview": "注文概要",
+  "address": "住所",
+  "item": "商品",
+  "totalAmount": "合計金額",
+  "orderStorderStatusTitleatus": "注文状況",
+  "selectStatus": "ステータスを選択",
+  "orderStatus": {
+    "pending": "保留中",
+    "confirmed": "確認済み",
+    "preparing": "準備中",
+    "outfordelivery": "配達中",
+    "delivered": "配達済み"
+  }
+}

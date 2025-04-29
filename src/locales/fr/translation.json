@@ -1,0 +1,172 @@
+{
+  "home": "Accueil",
+  "restaurants": "Restaurants",
+  "order": "Commande",
+  "dashboard": "Tableau de bord",
+  "restaurantHome": "Restaurant",
+  "menu": "Menu",
+  "orders": "Commandes",
+  "logout": "Déconnexion",
+  "profileHome": "Profil",
+  "cartHome": "Panier",
+  "footer": {
+    "rightsReserved": "Tous droits réservés."
+  },
+  "hero": {
+    "title": "Trouvez votre plat et restaurant préféré",
+    "subtitle": "Hé ! Nos plats délicieux vous attendent, nous sommes toujours près de vous. Découvrez les meilleurs restaurants, plats délicieux et vos cuisines préférées !",
+    "placeholder": "Rechercher un restaurant par nom, ville et pays",
+    "search": "Rechercher"
+  },
+  "filter": {
+    "title": "Filtrer par cuisines",
+    "reset": "Réinitialiser",
+    "cuisines": {
+      "indian": "Indienne",
+      "chinese": "Chinoise",
+      "mexican": "Mexicaine",
+      "italian": "Italienne",
+      "french": "Française",
+      "japanese": "Japonaise",
+      "turkish": "Turque",
+      "thai": "Thaïlandaise"
+    }
+  },
+  "search": {
+    "placeholder": "Rechercher par restaurant et cuisine",
+    "button": "Rechercher",
+    "resultFound": "résultat(s) trouvé(s)"
+  },
+  "restaurant": {
+    "featured": "En vedette",
+    "city": "Ville",
+    "country": "Pays",
+    "viewMenu": "Voir le menu"
+  },
+  "noResults": {
+    "title": "Aucun résultat trouvé",
+    "message": "Aucun résultat trouvé pour \"{{searchText}}\". Essayez avec un autre terme.",
+    "goHome": "Retour à l'accueil"
+  },
+  "restaurantDetail": {
+    "loading": "Chargement...",
+    "deliveryTime": "Temps de livraison",
+    "minutes": "minutes"
+  },
+  "availableMenu": {
+    "title": "Menu disponible",
+    "price": "Prix",
+    "addToCart": "Ajouter au panier"
+  },
+  "cart": {
+    "clear": "Tout effacer",
+    "items": "Articles",
+    "title": "Titre",
+    "price": "Prix",
+    "quantity": "Quantité",
+    "total": "Total",
+    "remove": "Supprimer",
+    "totalAmount": "Montant total",
+    "continue": "Continuer vos achats",
+    "checkout": "Passer à la caisse"
+  },
+  "allResTitle": "Tous les restaurants",
+  "success": {
+    "orderStatus": "Statut de la commande",
+    "orderSummary": "Résumé de la commande",
+    "orderNotFound": "Commande introuvable !",
+    "continueShopping": "Continuer vos achats"
+  },
+  "restaurantForm": {
+    "title": "Ajouter un restaurant",
+    "name": "Nom du restaurant",
+    "city": "Ville",
+    "country": "Pays",
+    "deliveryTime": "Temps de livraison",
+    "cuisines": "Types de cuisine",
+    "uploadBanner": "Télécharger la bannière du restaurant",
+    "placeholder": {
+      "name": "Entrez le nom du restaurant",
+      "city": "Entrez le nom de votre ville",
+      "country": "Entrez le nom de votre pays",
+      "deliveryTime": "Entrez le temps de livraison",
+      "cuisines": "ex : Indien, Chinois, Italien"
+    },
+    "button": {
+      "add": "Ajouter votre restaurant",
+      "update": "Mettre à jour votre restaurant",
+      "loading": "Veuillez patienter"
+    }
+  },
+  "validation": {
+    "restaurant_name_required": "Le nom du restaurant est requis",
+    "city_required": "La ville est requise",
+    "country_required": "Le pays est requis",
+    "delivery_time_non_negative": "Le temps de livraison ne peut pas être négatif",
+    "image_file_required": "Le fichier image est requis"
+  },
+  "profile": {
+    "email": "Email",
+    "address": "Adresse",
+    "city": "Ville",
+    "country": "Pays",
+    "contact": "Contact",
+    "update": "Mettre à jour",
+    "pleaseWait": "Veuillez patienter"
+  },
+  "addMenu": {
+    "availableMenus": "Menus disponibles",
+    "addMenu": "Ajouter un menu",
+    "dialogTitle": "Ajouter un nouveau menu",
+    "dialogDescription": "Créez un menu qui fera ressortir votre restaurant.",
+    "name": "Nom",
+    "placeholderName": "Entrez le nom du menu",
+    "description": "Description",
+    "placeholderDescription": "Entrez la description du menu",
+    "price": "Prix",
+    "placeholderPrice": "Entrez le prix du menu",
+    "uploadImage": "Télécharger l’image du menu",
+    "submit": "Soumettre",
+    "pleaseWait": "Veuillez patienter",
+    "priceLabel": "Prix",
+    "edit": "Modifier"
+  },
+  "editMenu": {
+  "title": "Modifier le menu",
+  "description": "Mettez à jour votre menu pour garder votre offre fraîche et attrayante!",
+  "name": "Nom",
+  "placeholderName": "Entrez le nom du menu",
+  "descriptionLabel": "Description",
+  "placeholderDescription": "Entrez la description du menu",
+  "price": "Prix en (Roupies)",
+  "placeholderPrice": "Entrez le prix du menu",
+  "uploadImage": "Télécharger l’image du menu",
+  "submit": "Soumettre",
+  "pleaseWait": "Veuillez patienter"
+},
+"menuValidation": {
+  "nameRequired": "Le nom est requis",
+  "descriptionRequired": "La description est requise",
+  "priceNegative": "Le prix ne peut pas être négatif",
+  "imageRequired": "Le fichier image est requis"
+},
+"userValidation": {
+  "fullNameRequired": "Le nom complet est requis",
+  "emailInvalid": "Adresse e-mail invalide",
+  "passwordMin": "Le mot de passe doit comporter au moins 6 caractères",
+  "contactMin": "Le numéro de contact doit comporter au moins 10 chiffres"
+},
+"overview": "Aperçu des commandes",
+  "address": "Adresse",
+  "item": "Article",
+  "totalAmount": "Montant total",
+  "orderStatusTitle": "Statut de la commande",
+  "selectStatus": "Sélectionner le statut",
+  "orderStatus": {
+    "pending": "En attente",
+    "confirmed": "Confirmé",
+    "preparing": "En préparation",
+    "outfordelivery": "En cours de livraison",
+    "delivered": "Livré"
+  }
+}

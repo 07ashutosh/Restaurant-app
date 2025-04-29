@@ -1,0 +1,172 @@
+{
+  "home": "Home",
+  "restaurants": "Restaurants",
+  "order": "Order",
+  "dashboard": "Dashboard",
+  "restaurantHome": "Restaurant",
+  "menu": "Menu",
+  "orders": "Orders",
+  "logout": "Logout",
+  "profileHome": "Profile",
+  "cartHome": "Cart",
+  "footer": {
+    "rightsReserved": "All rights reserved."
+  },
+  "hero": {
+    "title": "Find Your Favorite Food & Restaurants",
+    "subtitle": "Hey! Our Delicious food is waiting for you, we are always near to you. Discover the best restaurants, delicious dishes, and your favorite cuisines!",
+    "placeholder": "Search restaurant by name, city & country",
+    "search": "Search"
+  },
+  "filter": {
+    "title": "Filter by cuisines",
+    "reset": "Reset",
+    "cuisines": {
+      "indian": "Indian",
+      "chinese": "Chinese",
+      "mexican": "Mexican",
+      "italian": "Italian",
+      "french": "French",
+      "japanese": "Japanese",
+      "turkish": "Turkish",
+      "thai": "Thai"
+    }
+  },
+  "search": {
+    "placeholder": "Search by restaurant & cuisines",
+    "button": "Search",
+    "resultFound": "Search result found"
+  },
+  "restaurant": {
+    "featured": "Featured",
+    "city": "City",
+    "country": "Country",
+    "viewMenu": "View Menu"
+  },
+  "noResults": {
+    "title": "No results found",
+    "message": "We couldn't find any results for \"{{searchText}}\". Try searching with a different term.",
+    "goHome": "Go Back to Home"
+  },
+  "restaurantDetail": {
+    "loading": "Loading...",
+    "deliveryTime": "Delivery Time",
+    "minutes": "mins"
+  },
+  "availableMenu": {
+    "title": "Available Menu",
+    "price": "Price",
+    "addToCart": "Add to Cart"
+  },
+  "cart": {
+    "clear": "Clear All",
+    "items": "Items",
+    "title": "Title",
+    "price": "Price",
+    "quantity": "Quantity",
+    "total": "Total",
+    "remove": "Remove",
+    "totalAmount": "Total Amount",
+    "continue": "Continue Shopping",
+    "checkout": "Proceed To Checkout"
+  },
+  "allResTitle": "All Restaurants",
+  "success": {
+    "orderStatus": "Order Status",
+    "orderSummary": "Order Summary",
+    "orderNotFound": "Order not found!",
+    "continueShopping": "Continue Shopping"
+  },
+  "restaurantForm": {
+    "title": "Add Restaurants",
+    "name": "Restaurant Name",
+    "city": "City",
+    "country": "Country",
+    "deliveryTime": "Delivery Time",
+    "cuisines": "Cuisines",
+    "uploadBanner": "Upload Restaurant Banner",
+    "placeholder": {
+      "name": "Enter your restaurant name",
+      "city": "Enter your city name",
+      "country": "Enter your country name",
+      "deliveryTime": "Enter your delivery time",
+      "cuisines": "e.g. Indian, Chinese, Italian"
+    },
+    "button": {
+      "add": "Add Your Restaurant",
+      "update": "Update Your Restaurant",
+      "loading": "Please wait"
+    }
+  },
+  "validation": {
+    "restaurant_name_required": "Restaurant name is required",
+    "city_required": "City is required",
+    "country_required": "Country is required",
+    "delivery_time_non_negative": "Delivery time cannot be negative",
+    "image_file_required": "Image file is required"
+  },
+  "profile": {
+    "email": "Email",
+    "address": "Address",
+    "city": "City",
+    "country": "Country",
+    "contact": "Contact",
+    "update": "Update",
+    "pleaseWait": "Please wait"
+  },
+  "addMenu": {
+    "availableMenus": "Available Menus",
+    "addMenu": "Add Menu",
+    "dialogTitle": "Add A New Menu",
+    "dialogDescription": "Create a menu that will make your restaurant stand out.",
+    "name": "Name",
+    "placeholderName": "Enter menu name",
+    "description": "Description",
+    "placeholderDescription": "Enter menu description",
+    "price": "Price",
+    "placeholderPrice": "Enter menu price",
+    "uploadImage": "Upload Menu Image",
+    "submit": "Submit",
+    "pleaseWait": "Please wait",
+    "priceLabel": "Price",
+    "edit": "Edit"
+  },
+  "editMenu": {
+    "title": "Edit Menu",
+    "description": "Update your menu to keep your offerings fresh and exciting!",
+    "name": "Name",
+    "placeholderName": "Enter menu name",
+    "descriptionLabel": "Description",
+    "placeholderDescription": "Enter menu description",
+    "price": "Price in (Rupees)",
+    "placeholderPrice": "Enter menu price",
+    "uploadImage": "Upload Menu Image",
+    "submit": "Submit",
+    "pleaseWait": "Please wait"
+  },
+  "menuValidation": {
+    "nameRequired": "Name is required",
+    "descriptionRequired": "Description is required",
+    "priceNegative": "Price can not be negative",
+    "imageRequired": "Image file is required"
+  },
+  "userValidation": {
+    "fullNameRequired": "Full name is required",
+    "emailInvalid": "Invalid email address",
+    "passwordMin": "Password must be at least 6 characters",
+    "contactMin": "Contact number must be at least 10 characters"
+  },
+  "overview": "Orders Overview",
+  "address": "Address",
+  "item": "Item",
+  "totalAmount": "Total Amount",
+  "orderStatusTitle": "Order Status",
+  "selectStatus": "Select Status",
+  "orderStatus": {
+    "pending": "Pending",
+    "confirmed": "Confirmed",
+    "preparing": "Preparing",
+    "outfordelivery": "Out For Delivery",
+    "delivered": "Delivered"
+  }
+}

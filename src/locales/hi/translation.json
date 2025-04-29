@@ -1,0 +1,173 @@
+{
+  "home": "होम",
+  "restaurants": "रेस्टोरेंट",
+  "order": "ऑर्डर",
+  "dashboard": "डैशबोर्ड",
+  "restaurantHome": "रेस्टोरेंट",
+  "menu": "मेनू",
+  "orders": "ऑर्डर",
+  "logout": "लॉगआउट",
+  "profileHome": "प्रोफ़ाइल",
+  "cartHome": "कार्ट",
+  "footer": {
+    "rightsReserved": "सभी अधिकार सुरक्षित।"
+  },
+  "hero": {
+    "title": "अपने पसंदीदा भोजन और रेस्तरां खोजें",
+    "subtitle": "अरे! हमारा स्वादिष्ट भोजन आपका इंतज़ार कर रहा है, हम हमेशा आपके पास हैं। बेहतरीन रेस्तरां, स्वादिष्ट व्यंजन और अपनी पसंदीदा रसोइयों की खोज करें!",
+    "placeholder": "नाम, शहर और देश से रेस्तरां खोजें",
+    "search": "खोजें"
+  },
+  "filter": {
+    "title": "व्यंजन के अनुसार फ़िल्टर करें",
+    "reset": "रीसेट करें",
+    "cuisines": {
+      "indian": "भारतीय",
+      "chinese": "चीनी",
+      "mexican": "मैक्सिकन",
+      "italian": "इटालियन",
+      "french": "फ्रेंच",
+      "japanese": "जापानी",
+      "turkish": "तुर्की",
+      "thai": "थाई"
+    }
+  },
+   "search": {
+      "placeholder": "रेस्तरां और व्यंजनों द्वारा खोजें",
+      "button": "खोजें",
+      "resultFound": "परिणाम मिले"
+    },
+    "restaurant": {
+      "featured": "विशेष रुप से प्रदर्शित",
+      "city": "शहर",
+      "country": "देश",
+      "viewMenu": "मेनू देखें"
+    },
+    "noResults": {
+      "title": "कोई परिणाम नहीं मिला",
+      "message": "\"{{searchText}}\" के लिए कोई परिणाम नहीं मिला। कृपया कुछ और खोजें।",
+      "goHome": "होम पर वापस जाएं"
+    },
+    "restaurantDetail": {
+    "loading": "लोड हो रहा है...",
+    "deliveryTime": "डिलीवरी समय",
+    "minutes": "मिनट"
+  },
+  "availableMenu": {
+    "title": "उपलब्ध मेनू",
+    "price": "मूल्य",
+    "addToCart": "कार्ट में जोड़ें"
+  },
+  "cart": {
+    "clear": "सभी साफ़ करें",
+    "items": "आइटम",
+    "title": "शीर्षक",
+    "price": "मूल्य",
+    "quantity": "मात्रा",
+    "total": "कुल",
+    "remove": "हटाएँ",
+    "totalAmount": "कुल राशि",
+    "continue": "खरीदारी जारी रखें",
+    "checkout": "चेकआउट पर जाएं"
+  },
+  "allResTitle": "सभी रेस्टोरेंट",
+  "success": {
+    "orderStatus": "ऑर्डर की स्थिति",
+    "orderSummary": "ऑर्डर सारांश",
+    "orderNotFound": "ऑर्डर नहीं मिला!",
+    "continueShopping": "खरीदारी जारी रखें"
+  },
+  "restaurantForm": {
+    "title": "रेस्टोरेंट जोड़ें",
+    "name": "रेस्टोरेंट का नाम",
+    "city": "शहर",
+    "country": "देश",
+    "deliveryTime": "डिलीवरी समय",
+    "cuisines": "खानपान प्रकार",
+    "uploadBanner": "रेस्टोरेंट बैनर अपलोड करें",
+    "placeholder": {
+      "name": "रेस्टोरेंट का नाम दर्ज करें",
+      "city": "अपने शहर का नाम दर्ज करें",
+      "country": "अपने देश का नाम दर्ज करें",
+      "deliveryTime": "डिलीवरी समय दर्ज करें",
+      "cuisines": "उदाहरण: भारतीय, चाइनीज़, इटालियन"
+    },
+    "button": {
+      "add": "अपना रेस्टोरेंट जोड़ें",
+      "update": "अपना रेस्टोरेंट अपडेट करें",
+      "loading": "कृपया प्रतीक्षा करें"
+    }
+  },
+  "validation": {
+    "restaurant_name_required": "रेस्टोरेंट का नाम आवश्यक है",
+    "city_required": "शहर आवश्यक है",
+    "country_required": "देश आवश्यक है",
+    "delivery_time_non_negative": "डिलीवरी समय नकारात्मक नहीं हो सकता",
+    "image_file_required": "छवि फ़ाइल आवश्यक है"
+  },
+  "profile": {
+    "email": "ईमेल",
+    "address": "पता",
+    "city": "शहर",
+    "country": "देश",
+    "contact": "संपर्क",
+    "update": "अपडेट करें",
+    "pleaseWait": "कृपया प्रतीक्षा करें"
+  },
+  "addMenu": {
+    "availableMenus": "उपलब्ध मेनू",
+    "addMenu": "मेनू जोड़ें",
+    "dialogTitle": "नया मेनू जोड़ें",
+    "dialogDescription": "एक ऐसा मेनू बनाएं जो आपके रेस्तरां को अलग बनाए।",
+    "name": "नाम",
+    "placeholderName": "मेनू का नाम दर्ज करें",
+    "description": "विवरण",
+    "placeholderDescription": "मेनू का विवरण दर्ज करें",
+    "price": "कीमत",
+    "placeholderPrice": "मेनू की कीमत दर्ज करें",
+    "uploadImage": "मेनू छवि अपलोड करें",
+    "submit": "जमा करें",
+    "pleaseWait": "कृपया प्रतीक्षा करें",
+    "priceLabel": "कीमत",
+    "edit": "संपादित करें"
+  },
+  "editMenu": {
+  "title": "मेनू संपादित करें",
+  "description": "अपने ऑफ़र को ताज़ा और रोमांचक बनाए रखने के लिए मेनू अपडेट करें!",
+  "name": "नाम",
+  "placeholderName": "मेनू का नाम दर्ज करें",
+  "descriptionLabel": "विवरण",
+  "placeholderDescription": "मेनू का विवरण दर्ज करें",
+  "price": "कीमत (रुपयों में)",
+  "placeholderPrice": "मेनू की कीमत दर्ज करें",
+  "uploadImage": "मेनू छवि अपलोड करें",
+  "submit": "जमा करें",
+  "pleaseWait": "कृपया प्रतीक्षा करें"
+},
+"menuValidation": {
+  "nameRequired": "नाम आवश्यक है",
+  "descriptionRequired": "विवरण आवश्यक है",
+  "priceNegative": "कीमत नकारात्मक नहीं हो सकती",
+  "imageRequired": "छवि फ़ाइल आवश्यक है"
+},
+"userValidation": {
+  "fullNameRequired": "पूरा नाम आवश्यक है",
+  "emailInvalid": "अमान्य ईमेल पता",
+  "passwordMin": "पासवर्ड कम से कम 6 अक्षरों का होना चाहिए",
+  "contactMin": "संपर्क नंबर कम से कम 10 अंकों का होना चाहिए"
+},
+
+"overview": "ऑर्डर अवलोकन",
+  "address": "पता",
+  "item": "आइटम",
+  "totalAmount": "कुल राशि",
+  "orderStatusTitle": "ऑर्डर की स्थिति",
+  "selectStatus": "स्थिति चुनें",
+  "orderStatus": {
+    "pending": "लंबित",
+    "confirmed": "पुष्टि की गई",
+    "preparing": "तैयारी कर रहा है",
+    "outfordelivery": "डिलीवरी के लिए बाहर",
+    "delivered": "डिलीवर किया गया"
+  }
+}
